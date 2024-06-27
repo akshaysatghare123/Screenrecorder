@@ -1,0 +1,20 @@
+{
+    "name" : "Screenrecorder",
+    "version" : "0.0.1",
+    "manifest_version" : 3,
+    "browser_action" :
+    {
+        "default_popup" : "Index.html",
+        "default_icon" : "recorder.png"
+        
+    },
+    "icons" :{
+        "128" : "recorder.png"
+    },
+    "permissions" : ["storage","tabs","activeTab","desktopCapture"]
+    
+    
+        
+        
+
+}
